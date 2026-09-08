@@ -1,4 +1,4 @@
-export function localGreeting(name) {
+export function localGreeting(name = 'Leitwerk') {
   if (typeof name !== 'string') {
     throw new TypeError('name must be a non-blank string');
   }
